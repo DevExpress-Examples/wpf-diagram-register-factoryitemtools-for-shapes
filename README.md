@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/657641428/17.1.3%2B)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # WPF DiagramControl - Register FactoryItemTools for Regular and Custom Shapes
 
 This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes that are created from SVG images or ShapeTemplates.
