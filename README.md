@@ -5,7 +5,7 @@
 
 # WPF DiagramControl - Register FactoryItemTools for Regular and Custom Shapes
 
-This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes created from SVG images or `ShapeTemplates`. The [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) allows you to add a pre-configured or customized shapes and their descendants to stencils. The [DiagramDesignerControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDesignerControl) displays shapes specified by registered `FactoryItemTools` in the [Shapes Panel](https://docs.devexpress.com/WPF/116504/controls-and-libraries/diagram-control/diagram-designer-control/shapes-panel).
+This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes created from SVG images or `ShapeTemplates`. The [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) allows you to add pre-configured or customized shapes and their descendants to stencils. The [DiagramDesignerControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDesignerControl) displays shapes specified by registered `FactoryItemTools` in the [Shapes Panel](https://docs.devexpress.com/WPF/116504/controls-and-libraries/diagram-control/diagram-designer-control/shapes-panel).
 
 ## Implementation Details
 
