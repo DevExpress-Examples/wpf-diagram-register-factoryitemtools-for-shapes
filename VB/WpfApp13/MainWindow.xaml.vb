@@ -3,13 +3,9 @@ Imports DevExpress.Utils.Serializing
 Imports DevExpress.Xpf.Diagram
 Imports System
 Imports System.Windows
-Imports System.Windows.Controls
 
 Namespace WpfApp13
 
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
     Public Partial Class MainWindow
         Inherits Window
 
