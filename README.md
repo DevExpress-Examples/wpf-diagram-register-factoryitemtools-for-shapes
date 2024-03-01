@@ -6,13 +6,13 @@
 
 # WPF DiagramControl - Register FactoryItemTools for Regular and Custom Shapes
 
-This example demonstrates how to register `FactoryItemTools` for regular shapes and shapes created from SVG images or `ShapeTemplates`. The [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) allows you to add pre-configured or customized shapes and their descendants to stencils. The [DiagramDesignerControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDesignerControl) displays shapes specified by registered `FactoryItemTools` in the [Shapes Panel](https://docs.devexpress.com/WPF/116504/controls-and-libraries/diagram-control/diagram-designer-control/shapes-panel).
+This example registers `FactoryItemTools` for regular shapes and shapes created from SVG images/`ShapeTemplates`. The [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) allows you to add pre-configured or customized shapes and their descendants to stencils. The [DiagramDesignerControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Diagram.DiagramDesignerControl) displays shapes specified by registered `FactoryItemTools` in the [Shapes Panel](https://docs.devexpress.com/WPF/116504/controls-and-libraries/diagram-control/diagram-designer-control/shapes-panel).
 
 ## Implementation Details
 
-Follow the steps below to register a [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) for a regular shape:
+To register a [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) for a regular shape, you must:
 
-1. [Create](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.DiagramStencil.Create.overloads) a stencil or use one of the existing stencils:
+1. [Create](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.DiagramStencil.Create.overloads) a stencil or use an existing stencil:
 
    ```cs
    void RegisterStencil() {
@@ -43,7 +43,7 @@ Follow the steps below to register a [FactoryItemTool](https://docs.devexpress.c
 You should create two stencils to register a [FactoryItemTool](https://docs.devexpress.com/CoreLibraries/DevExpress.Diagram.Core.FactoryItemTool) for a custom shape:
 
 1. Create an [invisible stencil](https://docs.devexpress.com/WPF/116504/controls-and-libraries/diagram-control/diagram-designer-control/shapes-panel#create-hidden-stencils) that contains your custom shape.
-2. Create a visible stencil that contains the custom tool. This tool should access your custom shape by its `ID` from the invisible stencil:
+2. Create a visible stencil that contains the custom tool. This tool should access your custom shape by its ID from the invisible stencil:
 
 ```cs
 public void FactoryItemToolForCustomShape(DiagramStencil stencil) {
